@@ -155,11 +155,21 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="gulpfile.js" />
+    <Content Include="Images\code-1839406_1280.jpg" />
+    <Content Include="Images\me.png" />
+    <Content Include="Images\SoMe_Icons\GitHub-Mark-64px.png" />
+    <Content Include="Images\SoMe_Icons\GitHub_Logo.png" />
+    <Content Include="Images\SoMe_Icons\In-2C-128px-TM.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -171,6 +181,12 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="styles\Styles.css">
+      <DependentUpon>Styles.scss</DependentUpon>
+    </Content>
+    <Content Include="styles\Styles.min.css">
+      <DependentUpon>Styles.css</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -185,6 +201,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="styles\Styles.scss" />
+    <Content Include="Views\Home\Experiences.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

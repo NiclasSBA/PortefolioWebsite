@@ -1,0 +1,29 @@
+﻿@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Roboto");
+.navbar-inverse {
+  border: none;
+  background-color: #C44536; }
+  .navbar-inverse .navbar-nav li a {
+    font-family: 'IBM Plex Mono', monospace;
+    color: black; }
+
+h2 {
+  color: #C44536; }
+
+.jumbotron {
+  background: linear-gradient(to right, white 30%, transparent 80%), url("../Images/code-1839406_1280.jpg"); }
+  .jumbotron h1 {
+    color: #C44536; }
+
+.nabar-brand {
+  color: black; }
+
+img {
+  max-width: 100%; }
+
+.some-links {
+  display: flex;
+  align-items: flex-end; }
+  .some-links img {
+    width: 64px;
+    height: auto; }
+
