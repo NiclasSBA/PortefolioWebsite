@@ -2,44 +2,267 @@
     ViewBag.Title = "Homepage | niclasandersen.dk";
 }
 
-<div class="jumbotron">
-    <h1>Niclas Andersen</h1>
-    <p class="lead">Develop, secure &amp; conquer</p>
-   
-</div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>I am</h2>
-        <p>
-            Passionate about developing the digital world. I believe that everyone has the right to a secure journey on the internet.
-            This cannot be achieved by one person alone.
-        </p>
-        <div><img  src="~/Images/me.png" /></div>
-        <!--<p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>-->
-    </div>
-    <div class="col-md-8">
-        <h2>You are</h2>
-        <p>
-            More than welcome to contact me if you want know more, or you can find me on <a target="_blank" href="https://www.linkedin.com/in/niclasandersen/">
-                linkedin
-            </a>.
-            <br />
-            <br />
-            I'm posting something on <a target="_blank" href="https://github.com/NiclasSBA">
-                github
-            </a> from time to time.
-            I am very passionate about web development and I won't say no to coffee.
-        </p>
-        
-    </div>
-    <div class="col-md-4">
-        <!--Headline too long, make it shorter and more precise-->
-        <h2>Digital</h2>
-        <p>I've started an overhaul of my online presence, which meant a redesign of this website as part of my portefolio.
-        You can read more about my values @Html.ActionLink("here", "About", "Home"). 
-        I know that websites need a little something for the user, so I've made section for tips &amp; tricks, that contains some of my experiences, good, bad &amp; funny ones. 
-        You can find it <a href="#">here</a></p>
-       
-    </div>
-</div>
+
+<section class="advantages-wrapper">
+    <h2 class="section-title wow fadeInDown">Who is Niclas Andersen?</h2>
+    <div class="css-tab text-center">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="active"><a href="#experiance" aria-controls="experiance" role="tab" data-toggle="tab">Background</a></li>
+            <li><a href="#skills" aria-controls="skills" role="tab" data-toggle="tab">Skills</a></li>
+            <li><a href="#capabilities" aria-controls="capabilities" role="tab" data-toggle="tab">Capabilities</a></li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="experiance">
+                <div class="row">
+                    <div class="col-sm-6 text-left experiance-tab-content wow fadeInLeft">
+                        <h3>I am</h3>
+                        <p>
+                            Passionate about developing the digital world. I believe that everyone has the right to a secure journey on the internet.
+                            This cannot be achieved by one person alone.
+                        </p>
+                    </div><!--/.col-sm-6 -->
+                    <div class="col-sm-6 text-left experiance-tab-content wow fadeInRight">
+                        
+                    </div><!--/.col-sm-6 -->
+                    <div class="col-sm-6 text-left experiance-tab-content wow fadeInUp">
+                        <h3>You are</h3>
+                        <p>
+                            More than welcome to contact me if you want know more, or you can find me on <a target="_blank" href="https://www.linkedin.com/in/niclasandersen/">
+                                linkedin
+                            </a>.
+                            <br />
+                            <br />
+                            I'm posting something on <a target="_blank" href="https://github.com/NiclasSBA">
+                                github
+                            </a> from time to time.
+                            I am very passionate about web development and I won't say no to coffee.
+                        </p>
+                    </div>
+                </div><!-- /.row -->
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="skills">
+                <div class="our-skill">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="our-progress">
+                                <div class="chart" data-percent="73">
+                                    <span class="percent">73</span>
+                                </div>
+                                <p>Lorem ipsum dolor consectetuer</p>
+                            </div><!-- /.our-progress -->
+                        </div><!-- /.col-md-3 -->
+                        <div class="col-md-3 col-sm-6">
+                            <div class="our-progress">
+                                <div class="chart" data-percent="80">
+                                    <span class="percent">80</span>
+                                </div>
+                                <p>General programming</p>
+                            </div><!-- /.our-progress -->
+                        </div><!-- /.col-md-3 -->
+                        <div class="col-md-3 col-sm-6">
+                            <div class="our-progress">
+                                <div class="chart" data-percent="90">
+                                    <span class="percent">90</span>
+                                </div>
+                                <p>Proficient in English & Danish</p>
+                            </div><!-- /.our-progress -->
+                        </div><!-- /.col-md-3 -->
+                        <div class="col-md-3 col-sm-6">
+                            <div class="our-progress">
+                                <div class="chart" data-percent="70">
+                                    <span class="percent">70</span>
+                                </div>
+                                <p>Lorem ipsum dolor consectetuer</p>
+                            </div><!-- /.our-progress -->
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.row -->
+                </div><!-- /.our-skill -->
+            </div><!--/#skills -->
+            <div role="tabpanel" class="tab-pane fade" id="capabilities">
+                <div class="row ">
+                    <div class="col-md-6 col-xs-12 capability-tab-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="img/tab-capa-1.jpg" alt="">
+                            </div>
+                            <div class="media-body text-left">
+                                <h3 class="media-heading">Building your business growth &amp; prosperity</h3>
+                                <p>Holisticly mesh granular bandwidth without seamless manufactured products. Monotonectally productize team building e-commerce before global bandwidth. Uniquely mesh resource sucking content and robust portals.</p>
+                            </div><!-- /.media-body -->
+                        </div><!-- /.media -->
+                    </div><!-- /.col-md-6 -->
+                    <div class="col-md-6 col-xs-12 capability-tab-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="img/tab-capa-2.jpg" alt="">
+                            </div>
+                            <div class="media-body text-left">
+                                 <h3>Digital Warrior</h3>
+                                <p>
+                                    I've started an overhaul of my online presence, which meant a redesign of this website as part of my portefolio.
+                                    You can read more about my values @Html.ActionLink("here", "About", "Home").
+                                    I know that websites need a little something for the user, so I've made section for tips &amp; tricks, that contains some of my experiences, good, bad &amp; funny ones.
+                                    You can find it <a href="#">here</a>
+                                </p>
+                            </div><!-- /.media-body -->
+                        </div><!-- /.media -->
+                    </div><!-- /.col-md-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.tab-pane -->
+        </div><!-- /.tab-content -->
+    </div><!-- /.css-tab -->
+</section>
+<hr />
+<section class="handover-wrapper">
+    <h2 class="section-title wow fadeInDown">Our Handover Project</h2>
+    <div id="css-handover-carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#css-handover-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#css-handover-carousel" data-slide-to="1"></li>
+            <li data-target="#css-handover-carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6 wow fadeRight">
+                        <div class="handover-work-thumb">
+                            <img src="img/pr2.png" alt="">
+                        </div><!-- /.client-thumb -->
+                    </div><!-- /.col-md-6 -->
+
+                    <div class="col-md-6 col-md-pull-6 wow fadeInLeft">
+                        <div class="handover-project">
+                            <h3>Proactively productivate e-business e-commerce</h3>
+                            <p>Efficiently communicate installed base leadership skills with extensible testing procedures. Enthusiastically evolve leading-edge scenarios.</p>
+                            <ul class="check-square">
+                                <li>Globally exploit interoperable infrastructures</li>
+                                <li>Collaboratively initiate customer directed manufactured</li>
+                                <li>Competently whiteboard backend information rather</li>
+                                <li>Efficiently empower next-generation sources</li>
+                                <li>Uniquely expedite sticky e-markets via orthogonal</li>
+                                <li>Professionally strategize orthogonal core competency</li>
+                            </ul>
+                            <a class="btn btn-primary" href="portfolio-single.html" role="button">Read More</a>
+                        </div><!-- /.handover-project -->
+                    </div><!-- /.col-md-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.item -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6">
+                        <div class="handover-work-thumb">
+                            <img src="img/pr2.png" alt="">
+                        </div><!-- /.client-thumb -->
+                    </div><!-- /.col-md-6 -->
+
+                    <div class="col-md-6 col-md-pull-6">
+                        <div class="handover-project">
+                            <h3>Proactively productivate e-business e-commerce</h3>
+                            <p>Efficiently communicate installed base leadership skills with extensible testing procedures. Enthusiastically evolve leading-edge scenarios.</p>
+                            <ul class="check-square">
+                                <li>Globally exploit interoperable infrastructures</li>
+                                <li>Collaboratively initiate customer directed manufactured</li>
+                                <li>Competently whiteboard backend information rather</li>
+                                <li>Efficiently empower next-generation sources</li>
+                                <li>Uniquely expedite sticky e-markets via orthogonal</li>
+                                <li>Professionally strategize orthogonal core competency</li>
+                            </ul>
+                            <a class="btn btn-primary" href="portfolio-single.html" role="button">Read More</a>
+                        </div><!-- /.handover-project -->
+                    </div><!-- /.col-md-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.item -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6">
+                        <div class="handover-work-thumb">
+                            <img src="img/pr2.png" alt="">
+                        </div><!-- /.client-thumb -->
+                    </div><!-- /.col-md-6 -->
+
+                    <div class="col-md-6 col-md-pull-6">
+                        <div class="handover-project">
+                            <h3>Proactively productivate e-business e-commerce</h3>
+                            <p>Efficiently communicate installed base leadership skills with extensible testing procedures. Enthusiastically evolve leading-edge scenarios.</p>
+                            <ul class="check-square">
+                                <li>Globally exploit interoperable infrastructures</li>
+                                <li>Collaboratively initiate customer directed manufactured</li>
+                                <li>Competently whiteboard backend information rather</li>
+                                <li>Efficiently empower next-generation sources</li>
+                                <li>Uniquely expedite sticky e-markets via orthogonal</li>
+                                <li>Professionally strategize orthogonal core competency</li>
+                            </ul>
+                            <a class="btn btn-primary" href="portfolio-single.html" role="button">Read More</a>
+                        </div><!-- /.handover-project -->
+                    </div><!-- /.col-md-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.item -->
+        </div><!-- /.carousel-inner -->
+    </div><!-- /.carousel -->
+</section>
+<section class="footer-widget-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="footer-widget">
+                    <p class="subcsribe-text wow fadeInDown">Quickly utilize installed base channels before premier expertise. Conveniently extend web-enabled niche markets without 2.0 e-markets. Collaboratively incentivize .</p>
+                    
+                    <div class="social-link wow fadeInDown">
+                        <ul>
+                           
+                                
+                               
+                                <li> <a target="_blank" href="https://www.linkedin.com/in/niclasandersen/"><img src="~/Images/SoMe_Icons/In-2C-128px-TM.png" /></a></li>
+                                <li><a target="_blank" href="https://github.com/NiclasSBA"><img src="~/Images/SoMe_Icons/GitHub-Mark-64px.png" /></a></li>
+                        </ul>
+                    </div>
+                </div><!-- /.footer-widget -->
+            </div><!-- /.col-md-6 -->
+            <div class="col-md-2 col-sm-4 col-xs-4">
+                <div class="footer-widget">
+                    <h3 class="wow fadeInDown">Customer Care</h3>
+                    <ul class="wow fadeInDown">
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">Platinum Support</a></li>
+                        <li><a href="#">Gold Support</a></li>
+                        <li><a href="#">Standard Support</a></li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">Online Training</a></li>
+                        <li><a href="#">Custom Training</a></li>
+                    </ul>
+                </div><!-- /.footer-widget -->
+            </div><!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-4 col-xs-4">
+                <div class="footer-widget">
+                    <h3 class="wow fadeInDown">Information</h3>
+                    <ul class="wow fadeInDown">
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Awards</a></li>
+                        <li><a href="#">Video Clips</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div><!-- /.footer-widget -->
+            </div><!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-4 col-xs-4">
+                <div class="footer-widget">
+                    <h3 class="wow fadeInDown">Solutions</h3>
+                    <ul class="wow fadeInDown">
+                        <li><a href="#">Contact Center</a></li>
+                        <li><a href="#">Knowledge</a></li>
+                        <li><a href="#">Management</a></li>
+                        <li><a href="#">Web Self-Service</a></li>
+                        <li><a href="#">Performance Metrics</a></li>
+                    </ul>
+                </div><!-- /.footer-widget -->
+            </div><!-- /.col-md-2 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section>

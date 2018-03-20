@@ -151,12 +151,17 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Images\3117-cropped.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="gulpfile.js" />
+    <Content Include="Images\3117.jpg" />
     <Content Include="Images\code-1839406_1280.jpg" />
+    <Content Include="Images\code-cropped-gradient-tint.png" />
+    <Content Include="Images\code-cropped-gradient.png" />
+    <Content Include="Images\code-cropped.png" />
     <Content Include="Images\me.png" />
     <Content Include="Images\SoMe_Icons\GitHub-Mark-64px.png" />
     <Content Include="Images\SoMe_Icons\GitHub_Logo.png" />
@@ -171,16 +176,33 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\hippo-offcanvas.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.easing.min.js" />
+    <Content Include="Scripts\jquery.easypiechart.min.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.magnific-popup.min.js" />
+    <Content Include="Scripts\jquery.shuffle.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\modernizr-2.8.1.min.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\scripts.js" />
+    <Content Include="Scripts\smoothscroll.js" />
+    <Content Include="Scripts\wow.min.js" />
+    <Content Include="styles\css\animate.css" />
+    <Content Include="styles\css\bootstrap.min.css" />
+    <Content Include="styles\css\font-awesome.min.css" />
+    <Content Include="styles\css\hippo-off-canvas.css" />
+    <Content Include="styles\css\magnific-popup.css" />
+    <Content Include="styles\css\responsive.css" />
+    <Content Include="styles\css\style.css" />
     <Content Include="styles\Styles.css">
       <DependentUpon>Styles.scss</DependentUpon>
     </Content>

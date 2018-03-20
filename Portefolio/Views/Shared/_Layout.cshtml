@@ -3,42 +3,129 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Portefolio</title><link href="~/styles/Styles.min.css" rel="stylesheet" />
+    <title>@ViewBag.Title - Portefolio</title>
+    <link href="~/styles/Styles.min.css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    
+
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("127.0.0.1", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- offcanvas-trigger-effects -->
+                    <h1 class="logo"> @Html.ActionLink("Niclas Andersen", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })</h1>
+                </div>
+
+
+
+                <div class="collapse navbar-collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li class="dropdown">
+                            @Html.ActionLink("About me", "About", "Home")
+                            <!-- submenu-wrapper -->
+
+                        </li>
+
+                        <li class="dropdown">
+                            @Html.ActionLink("Tips", "Experiences", "Home")
+                            <!-- submenu-wrapper -->
+
+                        </li>
+
+                        <li> @Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About me", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Tips", "Experiences", "Home")</li>
-                </ul>
-            </div>
+        </nav>
+    </header>
+    <div id="st-container" class="st-container">
+        <div class="st-pusher">
+            <div class="st-content">
+                <div class="st-content-inner">
+
+                    <div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
+                        <!-- Indicators -->
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="item active">
+                                <img src="~/Images/code-cropped-gradient-tint.png" alt="Hero Slide">
+                                <!--Slide Image-->
+                                <div class="container">
+                                    <div class="carousel-caption">
+
+                                        <h1 class="animated lightSpeedIn">I'm Niclas</h1>
+                                        <p class="lead animated lightSpeedIn">
+                                            Aspiring &amp; passionate developer student.
+                                        </p>
+                                        @Html.ActionLink("Hire me", "Contact", "Home",null, new { @class = "btn btn-primary animated lightSpeedIn" })
+                                        
+                                    </div>
+                                    <!--.carousel-caption-->
+                                </div>
+                                <!--.container-->
+                            </div>
+                            <!--.item-->
+                        </div>
+                        <!--.carousel-inner-->
+                        <!-- Controls -->
+
+                    </div>
+                    <div class="container body-content">
+                        @RenderBody()
+                        <hr />
+
+
+                        <footer>
+                            <p>&copy; @DateTime.Now.Year - Niclas Andersen  </p><p>
+    Base theme: Copyright &copy; 2016 primex . All Rights Reserved. Designed by <a href="http://www.uicookies.com/">uicookies.com</a>
+</p>
+                        </footer>
+                    </div> <!-- .st-content-inner -->
+                </div> <!-- .st-content -->
+            </div> <!-- .st-pusher -->
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Niclas Andersen</p>
-        </footer>
-    </div>
+        <div class="offcanvas-menu offcanvas-effect visible-xs">
+            <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas" id="off-canvas-close-btn">&times;</button>
+            <h3>Sidebar Menu</h3>
+            <div>
+                <div>
+                    <ul>
+
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li class="dropdown">
+                            @Html.ActionLink("About me", "About", "Home")
+                            <!-- submenu-wrapper -->
+
+                        </li>
+
+                        <li class="dropdown">
+                            @Html.ActionLink("Tips", "Experiences", "Home")
+                            <!-- submenu-wrapper -->
+
+                        </li>
+
+                        <li> @Html.ActionLink("Contact", "Contact", "Home")</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div><!-- .offcanvas-menu -->
+    </div><!-- /st-container -->
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
 </html>
+<!-- /.navbar-collapse -->

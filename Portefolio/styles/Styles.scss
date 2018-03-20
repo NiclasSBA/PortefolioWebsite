@@ -1,5 +1,5 @@
 ﻿body {
-    
+   
 }
 
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Roboto');
@@ -9,9 +9,34 @@ $color_dark: #197278;
 $color_champagne: #EDDDD4;
 $color_red: #C44536;
 $color_blue: #293284;
+section {
+    border: 3px solid #e3e3e3;
+
+}
+#x-corp-carousel{
+    margin-bottom: 30px;
+
+}
+.our-progress {
+    p {
+        color: rgb(127, 132, 181) !important;
+    }
+}
+
+.tab-content {
+    background: white;
+
+    h3 {
+        color: rgba(41,50,132,.6) !important;
+    }
+
+    p {
+        color: black;
+    }
+}
+span{color:black;}
 
 .navbar-inverse {
-    
     border: none;
     background-color: $color_red;
 
@@ -38,17 +63,32 @@ h2{
     p {
          }
 }
+.navbar-brand:hover{
+    text-decoration:none !important;
+}
+.navbar-brand a:hover {
+    text-decoration:none !important;
+}
 
-.nabar-brand{
-     
-    color: black;
+.navbar-brand {
+    color:white !important;
+    text-decoration:none;
 }
 
 img{max-width:100%;}
-.some-links{
-    display:flex;
-    align-items:flex-end;
-    img{width: 64px;
-        height:auto;
+.some-links {
+    display: flex;
+    align-items: flex-end;
+
+    img {
+       
+    }
+}
+.social-link {
+    img {
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        border-radius: 2px;
     }
 }
