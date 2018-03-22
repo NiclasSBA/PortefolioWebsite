@@ -11,7 +11,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    background: #ffffff;
+   
     color: #6d6d6d;
     -webkit-font-smoothing: antialiased !important;
 }
@@ -76,9 +76,11 @@ a {
 /* --------------------------------------------------
 GENERAL
 ----------------------------------------------------- */
+/*
 img {
     width: 100%;
 }
+    */
 
 hr {
     border-top: 1px solid #e3e3e3;
@@ -179,14 +181,15 @@ ul.check-square li{
     padding-left: 25px;
 }
 
-ul.check-square li::before{
-    content: "\f14a";
-    font-family: FontAwesome;
-    font-size: 15px;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
+    ul.check-square li::before {
+        content: "\f14a";
+        font-family: FontAwesome;
+        font-size: 15px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: rgb(165,174,255);
+    }
 
 /*List check-square-o*/
 ul.check-square-o li{
@@ -349,7 +352,7 @@ BREADCRUMB
 SECTION TITLE
 ----------------------------------------------------- */
 .section-title {
-    color: rgb(127, 132, 181);
+    color: #202020;
     position: relative;
     margin: 0 0 40px 0;
     padding-bottom: 15px;
@@ -455,11 +458,11 @@ NAVIGATION
     transition: all 300ms;
 }
 
-.navbar-default .navbar-toggle:hover, 
-.navbar-default .navbar-toggle:focus {
-    background-color: #fcbb3c;
-    border: 2px solid transparent;
-}
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: rgb(145, 204, 112);
+        border: 2px solid transparent;
+    }
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
@@ -593,7 +596,7 @@ ADVANTAGES WRAPPER
     background-size: cover;
 }
 .advantages-wrapper.capabilities {
-    background: url('../img/capabilitiestab.jpg') no-repeat center center;
+   
     background-size: cover;
 }
 
@@ -602,8 +605,8 @@ ADVANTAGES WRAPPER
 /*CSS TAB*/
 .nav-tabs {
     border-bottom: 0;
-    background: rgba(255, 255, 255, 0.1);
-    display: inline-block;
+   /* background: rgba(255, 255, 255, 0.1); */
+   /* display: inline-block; */
     padding: 5px 7px;
     border-radius: 3px;
 }
@@ -614,26 +617,26 @@ ADVANTAGES WRAPPER
         border: 0;
         font-size: 18px;
         font-weight: 700;
-        color: rgba(41,50,132,.6);
+        color: rgba(40,61,59,.5);
         border-radius: 3px;
     }
 
-.nav-tabs > li.active > a {
-    border: 0;
-    color: rgba(41,50,132,.6);
-    margin-bottom: 0;
-}
-
-
-    .nav-tabs > li > a:hover,
-    .nav-tabs > li.active > a,
-    .nav-tabs > li.active > a:hover,
-    .nav-tabs > li.active > a:focus {
-        color: #ffffff;
-        background: rgba(41,50,132,.6);
+    .nav-tabs > li.active > a {
         border: 0;
-        text-decoration:none !important;
+        color: rgba(40,61,59,.5);
+        margin-bottom: 0;
     }
+
+
+        .nav-tabs > li > a:hover,
+        .nav-tabs > li.active > a,
+        .nav-tabs > li.active > a:hover,
+        .nav-tabs > li.active > a:focus {
+            color: #ffffff;
+            background: rgb(145, 204, 112);
+            border: 0;
+            text-decoration: none !important;
+        }
 
 
 .tab-content {
@@ -665,12 +668,16 @@ ADVANTAGES WRAPPER
 .percent {
     position: absolute;
     top: 50%;
-    left: 50%;
+    /* left: 50%; */
     margin-top: -15px;
-    margin-left: -34px;
-    font-size: 36px;
+    width: 100%;
+    font-size: 24px;
     line-height: 30px;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .percent:after {
@@ -690,14 +697,14 @@ HANDOVER WRAPPER
 --------------------------------------------------------------------- */
 .handover-wrapper {
     background-color: #5d564b;
-    color: #fff;
+    /*color: #fff; */
     padding: 60px 0 60px 60px;
 }
 .handover-wrapper .item {
     margin-bottom: 40px;
 }
 .handover-project h3 {
-    color: #fff;
+    /*color: #fff; */
     font-weight: 500;
 }
 .handover-project ul {
@@ -778,7 +785,7 @@ TESTIMONIAL WRAPPER
 .handover-wrapper .carousel-indicators li,
 .testimonial-wrapper .carousel-indicators li {
     width: 22px;
-    height: 7px;
+    height: 22px;
     margin: 0 5px 0 0;
     border-radius: 1em;
 }
@@ -786,12 +793,14 @@ TESTIMONIAL WRAPPER
     .handover-wrapper .carousel-indicators .active,
     .testimonial-wrapper .carousel-indicators .active {
         width: 22px;
-        height: 7px;
+        height: 22px;
         margin: 0 5px 0 0;
-        background-color: rgb(127, 132, 181);
-        border: 1px solid rgb(127, 132, 181);
+        background-color: rgb(145, 204, 112);
+       
     }
-
+ol li p{
+    color:#fff
+}
 .testimonial-wrapper .carousel-indicators li {
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid transparent;
@@ -2160,11 +2169,11 @@ Offcanvas Style
 	text-shadow: none;
 	opacity: 1;
 }
-#off-canvas-close-btn:hover,
-#off-canvas-close-btn:focus{
-	color: #fcbb3c;
-	outline: none;
-}
+    #off-canvas-close-btn:hover,
+    #off-canvas-close-btn:focus {
+        color: rgb(145, 204, 112);
+        outline: none;
+    }
 .offcanvas-menu  h3{
 	text-transform: uppercase;
 	color: #fff;
@@ -2433,7 +2442,7 @@ li.dropdown.menu-animating > .submenu-sub-wrapper {
     left        : 0;
     text-align  : left;
     text-shadow : none;
-    width : 60%;
+    width : 80%;
     }
 
 .hero-slide .carousel-caption small {
@@ -2451,7 +2460,7 @@ li.dropdown.menu-animating > .submenu-sub-wrapper {
     }
 
 .hero-slide .carousel-caption h1 {
-    font-size               : 56px;
+  /*  font-size               : 56px; */
     line-height             : 1;
     font-weight             : bold;
     text-transform          : capitalize;

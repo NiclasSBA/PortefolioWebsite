@@ -1242,6 +1242,10 @@ pre code {
 }
 
 @media (min-width: 1200px) {
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
   .container {
     max-width: 1170px;
   }
@@ -6024,7 +6028,7 @@ body.modal-open,
 .carousel-inner > .item > a > img {
   display: block;
   height: auto;
-  max-width: 100%;
+  /*max-width: 100%; */
   line-height: 1;
 }
 
@@ -6153,7 +6157,7 @@ body.modal-open,
   width: 10px;
   height: 10px;
   margin: 1px;
-  text-indent: -999px;
+ /* text-indent: -999px; */
   cursor: pointer;
   border: 1px solid #ffffff;
   border-radius: 10px;

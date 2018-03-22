@@ -117,13 +117,14 @@
 </section>
 <hr />
 <section class="handover-wrapper">
-    <h2 class="section-title wow fadeInDown">Our Handover Project</h2>
+    <h2 class="section-title wow fadeInDown">Currently working on</h2>
     <div id="css-handover-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#css-handover-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#css-handover-carousel" data-slide-to="1"></li>
-            <li data-target="#css-handover-carousel" data-slide-to="2"></li>
+          
+            <li data-target="#css-handover-carousel" data-slide-to="0" class="active"><p>1<p></p></li>
+            <li data-target="#css-handover-carousel" data-slide-to="1"><p>2<p></li>
+            <li data-target="#css-handover-carousel" data-slide-to="2"><p>3<p></li>
         </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
@@ -131,23 +132,24 @@
                 <div class="row">
                     <div class="col-md-6 col-md-push-6 wow fadeRight">
                         <div class="handover-work-thumb">
-                            <img src="img/pr2.png" alt="">
+                            <img src="" alt="">
                         </div><!-- /.client-thumb -->
                     </div><!-- /.col-md-6 -->
 
                     <div class="col-md-6 col-md-pull-6 wow fadeInLeft">
                         <div class="handover-project">
-                            <h3>Proactively productivate e-business e-commerce</h3>
-                            <p>Efficiently communicate installed base leadership skills with extensible testing procedures. Enthusiastically evolve leading-edge scenarios.</p>
+                            <h3>Secure login &amp; password storage in MSSQL &amp; C#</h3>
+                            <p>The aim is to know how passwords are best stored and verified, this includes:</p>
                             <ul class="check-square">
-                                <li>Globally exploit interoperable infrastructures</li>
-                                <li>Collaboratively initiate customer directed manufactured</li>
-                                <li>Competently whiteboard backend information rather</li>
-                                <li>Efficiently empower next-generation sources</li>
-                                <li>Uniquely expedite sticky e-markets via orthogonal</li>
-                                <li>Professionally strategize orthogonal core competency</li>
+                                <li>No storing plaintext passwords</li>
+                                <li>Adding a salt to help encryption</li>
+                                <li>Using parameterization to prevent SQL injections</li>
+                                <li>Explain password rules and how I enforce them</li>
+                                <li>Adding 2-factor authentication</li>
+                                <li>Demonstrate the features above vs. a non-secure system.</li>
                             </ul>
-                            <a class="btn btn-primary" href="portfolio-single.html" role="button">Read More</a>
+                        <p>Project deadline: 4th April 2018</p>
+                            <!--- <a class="btn btn-primary" href="portfolio-single.html" role="button">Read More</a-->
                         </div><!-- /.handover-project -->
                     </div><!-- /.col-md-6 -->
                 </div><!-- /.row -->
@@ -162,17 +164,17 @@
 
                     <div class="col-md-6 col-md-pull-6">
                         <div class="handover-project">
-                            <h3>Proactively productivate e-business e-commerce</h3>
-                            <p>Efficiently communicate installed base leadership skills with extensible testing procedures. Enthusiastically evolve leading-edge scenarios.</p>
+                            <h3>This Website</h3>
+                            <p>I'm updating my digital presence, this includes</p>
                             <ul class="check-square">
-                                <li>Globally exploit interoperable infrastructures</li>
-                                <li>Collaboratively initiate customer directed manufactured</li>
-                                <li>Competently whiteboard backend information rather</li>
-                                <li>Efficiently empower next-generation sources</li>
-                                <li>Uniquely expedite sticky e-markets via orthogonal</li>
-                                <li>Professionally strategize orthogonal core competency</li>
+                                <li>Adding new elements to this website</li>
+                                <li>Keeping Linkedin &amp; github updated</li>
+                                <li>Adding a backend to this.</li>
+                                <li>Providing a way of displaying my portefolio</li>
+
                             </ul>
-                            <a class="btn btn-primary" href="portfolio-single.html" role="button">Read More</a>
+                            In case you want to read more about my values<br />
+                            @Html.ActionLink("Click here", "about", "Home", null, new { @class = "btn btn-primary " })
                         </div><!-- /.handover-project -->
                     </div><!-- /.col-md-6 -->
                 </div><!-- /.row -->
@@ -187,17 +189,12 @@
 
                     <div class="col-md-6 col-md-pull-6">
                         <div class="handover-project">
-                            <h3>Proactively productivate e-business e-commerce</h3>
-                            <p>Efficiently communicate installed base leadership skills with extensible testing procedures. Enthusiastically evolve leading-edge scenarios.</p>
-                            <ul class="check-square">
-                                <li>Globally exploit interoperable infrastructures</li>
-                                <li>Collaboratively initiate customer directed manufactured</li>
-                                <li>Competently whiteboard backend information rather</li>
-                                <li>Efficiently empower next-generation sources</li>
-                                <li>Uniquely expedite sticky e-markets via orthogonal</li>
-                                <li>Professionally strategize orthogonal core competency</li>
-                            </ul>
-                            <a class="btn btn-primary" href="portfolio-single.html" role="button">Read More</a>
+                            <h3>Collaboration on ElectronJS</h3>
+                            <p>This project should display a development process involving ElectronJS</p>
+                            <br />
+                        <br />
+                        <p>More info coming soon!</p>
+                          
                         </div><!-- /.handover-project -->
                     </div><!-- /.col-md-6 -->
                 </div><!-- /.row -->
@@ -223,46 +220,7 @@
                     </div>
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-6 -->
-            <div class="col-md-2 col-sm-4 col-xs-4">
-                <div class="footer-widget">
-                    <h3 class="wow fadeInDown">Customer Care</h3>
-                    <ul class="wow fadeInDown">
-                        <li><a href="#">Customer Support</a></li>
-                        <li><a href="#">Platinum Support</a></li>
-                        <li><a href="#">Gold Support</a></li>
-                        <li><a href="#">Standard Support</a></li>
-                        <li><a href="#">Training</a></li>
-                        <li><a href="#">Online Training</a></li>
-                        <li><a href="#">Custom Training</a></li>
-                    </ul>
-                </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-2 -->
-            <div class="col-md-2 col-sm-4 col-xs-4">
-                <div class="footer-widget">
-                    <h3 class="wow fadeInDown">Information</h3>
-                    <ul class="wow fadeInDown">
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">Articles</a></li>
-                        <li><a href="#">Reviews</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Awards</a></li>
-                        <li><a href="#">Video Clips</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-2 -->
-            <div class="col-md-2 col-sm-4 col-xs-4">
-                <div class="footer-widget">
-                    <h3 class="wow fadeInDown">Solutions</h3>
-                    <ul class="wow fadeInDown">
-                        <li><a href="#">Contact Center</a></li>
-                        <li><a href="#">Knowledge</a></li>
-                        <li><a href="#">Management</a></li>
-                        <li><a href="#">Web Self-Service</a></li>
-                        <li><a href="#">Performance Metrics</a></li>
-                    </ul>
-                </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-2 -->
+            
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section>

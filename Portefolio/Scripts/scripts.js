@@ -122,11 +122,11 @@ jQuery(function ($) {
             //your configuration goes here
             easing: 'easeOut',
             delay: 3000,
-            barColor: 'rgb(127, 132, 181)',
-            trackColor: '#fff',
+            barColor: 'rgb(145, 204, 112)',
+            trackColor: 'rgba(255,255,255,0',
             scaleColor: false,
             lineWidth: 10,
-            size: 150,
+            size: 120,
             animate: 5000,
             onStep: function (from, to, percent) {
                 this.el.children[0].innerHTML = Math.round(percent);

@@ -5,18 +5,35 @@ section {
 #x-corp-carousel {
   margin-bottom: 30px; }
 
-.our-progress p {
-  color: #7f84b5 !important; }
+.advantages-wrapper {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0.5)), url(../Images/typewriter-801921_1920.jpg); }
 
-.tab-content {
-  background: white; }
-  .tab-content h3 {
-    color: rgba(41, 50, 132, 0.6) !important; }
-  .tab-content p {
-    color: black; }
+.handover-wrapper {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0.5)), url(../Images/paper-2221812_1920.jpg); }
+
+.our-progress p {
+  color: black !important; }
+
+.tab-content h3 {
+  color: #202020 !important; }
+
+.tab-content p {
+  color: black; }
 
 span {
-  color: black; }
+  color: #202020; }
+
+/*
+.check-square li:hover{
+
+    color:red;
+}
+    */
+.advantages-wrapper {
+  min-height: 794px; }
+
+.handover-project {
+  color: #000; }
 
 .navbar-inverse {
   border: none;
@@ -55,4 +72,33 @@ img {
   height: 34px;
   line-height: 34px;
   border-radius: 2px; }
+
+/*MEDIA QUERIES*/
+.handover-wrapper .carousel-inner .item {
+  min-height: 609px; }
+
+img {
+  width: unset;
+  max-width: unset; }
+
+.nav-tabs {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+@media (min-width: 1200px) {
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    max-width: 100%;
+    width: 100%; }
+  img {
+    width: unset;
+    max-width: unset; }
+  .handover-wrapper .carousel-inner {
+    min-height: 411px; } }
+
+@media (min-width: 992px) {
+  .nav-tabs {
+    display: inline-block; }
+  .handover-wrapper .carousel-inner .item {
+    min-height: 447px; } }
 

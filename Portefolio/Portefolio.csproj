@@ -163,9 +163,11 @@
     <Content Include="Images\code-cropped-gradient.png" />
     <Content Include="Images\code-cropped.png" />
     <Content Include="Images\me.png" />
+    <Content Include="Images\paper-2221812_1920.jpg" />
     <Content Include="Images\SoMe_Icons\GitHub-Mark-64px.png" />
     <Content Include="Images\SoMe_Icons\GitHub_Logo.png" />
     <Content Include="Images\SoMe_Icons\In-2C-128px-TM.png" />
+    <Content Include="Images\typewriter-801921_1920.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
