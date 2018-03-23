@@ -32,5 +32,9 @@ namespace Portefolio.Controllers
             return View();
 
         }
+        public FilePathResult Niclas_Resume(string fileName)
+        {
+            return new FilePathResult(string.Format(@"~\Files\{0}", fileName + ".pdf" ), "application/pdf");
+        }
     }
 }

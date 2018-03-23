@@ -6,13 +6,19 @@ section {
   margin-bottom: 30px; }
 
 .advantages-wrapper {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0.5)), url(../Images/typewriter-801921_1920.jpg); }
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.75) 20%, rgba(255, 255, 255, 0.75)), url(../Images/typewriter-801921_1920.jpg); }
 
 .handover-wrapper {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0.5)), url(../Images/paper-2221812_1920.jpg); }
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.75) 20%, rgba(255, 255, 255, 0.75)), url(../Images/paper-2221812_1920.jpg); }
 
 .our-progress p {
   color: black !important; }
+
+p {
+  font-size: 1.2em; }
+
+.check-square li {
+  font-size: 1.2em; }
 
 .tab-content h3 {
   color: #202020 !important; }
@@ -73,6 +79,11 @@ img {
   line-height: 34px;
   border-radius: 2px; }
 
+#profile-image {
+  min-width: 100%;
+  max-width: 100%;
+  width: 100%; }
+
 /*MEDIA QUERIES*/
 .handover-wrapper .carousel-inner .item {
   min-height: 609px; }
@@ -90,6 +101,8 @@ img {
   .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     max-width: 100%;
     width: 100%; }
+  .advantages-wrapper {
+    min-height: 794px; }
   img {
     width: unset;
     max-width: unset; }
@@ -101,4 +114,16 @@ img {
     display: inline-block; }
   .handover-wrapper .carousel-inner .item {
     min-height: 447px; } }
+
+@media (max-width: 400px) {
+  .advantages-wrapper {
+    min-height: 1670px !important; } }
+
+@media (max-width: 991px) {
+  .advantages-wrapper {
+    min-height: 1550px; } }
+
+@media (min-width: 1199px) {
+  .advantages-wrapper {
+    min-height: 840px !important; } }
 

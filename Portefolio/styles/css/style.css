@@ -409,7 +409,7 @@ NAVIGATION
 
     .top-nav-collapse {
         padding: 0;
-        background: rgba(40,61,59,.8);
+        background: rgba(40,61,59,1);
     }
 }
 
@@ -427,22 +427,28 @@ NAVIGATION
     font-size: 14px;
     line-height: 24px;
     font-weight: 500;
+    display:inline-block;
+
 }
 
-.navbar-default .navbar-nav>li>a:hover, 
-.navbar-default .navbar-nav>li>a:focus {
-    color: #fcbb3c;
-    background-color: transparent;
-}
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #202020;
+        background-color: transparent;
+        text-decoration: none !important;
+        background-color: rgb(145, 204, 112);
+    }
 
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:hover, 
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.open>a, 
-.navbar-default .navbar-nav>.open>a:hover, 
-.navbar-default .navbar-nav>.open>a:focus {
-    color: #fcbb3c;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #202020;
     background-color: transparent;
+    text-decoration: none !important;
+    background-color: rgb(145, 204, 112);
 }
 
 

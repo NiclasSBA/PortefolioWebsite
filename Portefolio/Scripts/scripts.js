@@ -126,7 +126,7 @@ jQuery(function ($) {
             trackColor: 'rgba(255,255,255,0',
             scaleColor: false,
             lineWidth: 10,
-            size: 120,
+            size: 150,
             animate: 5000,
             onStep: function (from, to, percent) {
                 this.el.children[0].innerHTML = Math.round(percent);
@@ -192,7 +192,7 @@ jQuery(function ($) {
     // -----------------------------------------------------------------
     // jQuery to collapse the navbar on scroll
     // ------------------------------------------------------------------
-
+    /*
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 50) {
             $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -201,7 +201,7 @@ jQuery(function ($) {
         }
     });
 
-
+*/
 
 
 

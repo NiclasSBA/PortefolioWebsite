@@ -163,6 +163,8 @@
     <Content Include="Images\code-cropped-gradient.png" />
     <Content Include="Images\code-cropped.png" />
     <Content Include="Images\me.png" />
+    <Content Include="Images\Niclas-A.jpg" />
+    <Content Include="Images\Niclas-A_sh.jpg" />
     <Content Include="Images\paper-2221812_1920.jpg" />
     <Content Include="Images\SoMe_Icons\GitHub-Mark-64px.png" />
     <Content Include="Images\SoMe_Icons\GitHub_Logo.png" />
@@ -177,6 +179,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Files\Niclas_Resume.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\hippo-offcanvas.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
